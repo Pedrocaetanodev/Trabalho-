@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com Menu de Navegação</title>
+    <style>
+        /* --- Estilos CSS para o menu --- */
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            /* Adicione um espaçamento para visualizar melhor o scroll */
+            padding-bottom: 500px; 
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            position: sticky; /* Faz o menu ficar fixo no topo ao rolar */
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+
+        /* Estilo para as seções de conteúdo */
+        .secao {
+            padding: 40px 20px;
+            margin: 20px auto;
+            max-width: 900px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .secao h2 {
+            color: #333;
+            border-bottom: 2px solid #575757;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* --- Fim dos Estilos CSS --- */
+    </style>
+</head>
+<body>
+
+    <header id="inicio">
+      
+    </header>
+
+    <div class="secao" style="text-align: center;">
+        <h1>Bem-vindo ao Nosso Site!</h1>
+        <p>Abaixo, você pode conhecer mais sobre nossa escola e nosso modelo de ensino inovador.</p>
+    </div>
+
+    <section id="sobre" class="secao">
+        <h2>Sobre a EE Monsenhor Mário Araújo Guimarães</h2>
+
+        <p>A Escola Estadual Monsenhor Mário Araújo Guimarães é um pilar de excelência educacional em nossa comunidade. Comprometida com a formação integral de seus estudantes, a escola se destaca por sua infraestrutura acolhedora e um corpo docente dedicado.</p>
+        
+        <p>Nosso principal diferencial é a implementação do EMTI (Ensino Médio em Tempo Integral)**, um modelo pedagógico que vai além da formação básica. No EMTI, os alunos têm uma jornada escolar estendida, o que permite aprofundar o conhecimento, desenvolver habilidades socioemocionais e se preparar de forma mais completa para o futuro.</p>
+        
+        <h3>O que é o EMTI?</h3>
+        
+        <ul>
+            <li>Jornada Estendida: Mais tempo de aprendizado e vivência escolar.</li>
+            <li>Componentes Curriculares Flexíveis: Oferece itinerários formativos e eletivas que permitem ao aluno escolher áreas de estudo alinhadas aos seus interesses e projetos de vida.</li>
+            <li>Foco no Projeto de Vida: Incentiva o estudante a planejar seu futuro, desenvolver autonomia e responsabilidade.</li>
+            <li>protagonismo Juvenil: O aluno é colocado no centro do processo de ensino-aprendizagem, sendo incentivado a liderar, tomar decisões e participar ativamente da gestão escolar.</li>
+        </ul>
+        
+        <p>Na Monsenhor Mário Araújo Guimarães, acreditamos que o EMTI é a chave para transformar o potencial de nossos jovens em sucesso acadêmico e profissional.</p>
+
+    </section>
+
+   
+</body>
+</html>
