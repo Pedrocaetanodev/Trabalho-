@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com Menu de Navegação</title>
+    <style>
+        /* --- Estilos CSS para o menu --- */
+
+        /* Estilo básico para o corpo da página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; /* Remove margem padrão */
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Estilo para a barra de navegação */
+        nav {
+            background-color: #333; /* Cor de fundo escura */
+            overflow: hidden; /* Garante que os flutuadores sejam contidos */
+        }
+
+        /* Estilo para a lista não ordenada (o menu) */
+        nav ul {
+            list-style-type: none; /* Remove os marcadores de lista */
+            margin: 0;
+            padding: 0;
+            text-align: center; /* Centraliza os itens do menu */
+        }
+
+        /* Estilo para cada item da lista (cada link) */
+        nav ul li {
+            display: inline-block; /* Faz os itens ficarem lado a lado */
+        }
+
+        /* Estilo para os links dentro do menu */
+        nav ul li a {
+            display: block; /* Faz o link ocupar todo o espaço do <li> */
+            color: white; /* Cor do texto */
+            text-align: center;
+            padding: 14px 16px; /* Espaçamento interno */
+            text-decoration: none; /* Remove o sublinhado */
+            transition: background-color 0.3s; /* Transição suave para o hover */
+        }
+
+        /* Estilo para o link quando o mouse passa por cima (hover) */
+        nav ul li a:hover {
+            background-color: #575757; /* Cor de fundo mais clara no hover */
+        }
+
+        /* Estilo para o conteúdo principal */
+        .conteudo {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* --- Fim dos Estilos CSS --- */
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="inicio1.html">Início</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="serviços.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="conteudo">
+        <h1>Bem-vindo ao Meu Site!</h1>
+        <p>Esta é a área de conteúdo principal. O menu acima permite navegar entre as seções.</p>
+        <p>Basta salvar este código como um arquivo **.html** e abri-lo no seu navegador para ver o resultado.</p>
+    </div>
+
+</body>
+</html>
